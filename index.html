@@ -8,13 +8,17 @@
 </head>
 <body>
     <header>
-        <nav>
-            <li><a href="#">ABOUT US</a></li>
-            <li><a href="#">SHOP</a></li>
-            <li><a href="#">PORTFOLIO</a></li>
-            <li><a href="#">BLOG</a></li>
-            <li><a href="#">ELEMENTS</a></li>
-        </nav>
+        <div class='navbar'>
+            <img src='/Users/jessemaretz/Desktop/sei/projects/project-1/nippylogoblack.png'>
+            <img src='/Users/jessemaretz/Desktop/sei/projects/project-1/nippylineblack.png'>
+            <nav>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">SHOP</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">ELEMENTS</a></li>
+            </nav>
+        </div>
         <div class='header-stuff'>
             <h1>God is in the details</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -27,7 +31,7 @@
         <div class="about-text">
             <h2>About Us</h2>
             <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. Elementum tempus egestas sed sed.</p>
+            <p>LLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed. A arcu cursus vitae congue mauris rhoncus aenean. Viverra vitae congue eu consequat ac felis donec et odio. Sed libero enim sed faucibus turpis in eu mi. Egestas egestas fringilla phasellus faucibus scelerisque eleifend. Mauris ultrices eros in cursus turpis massa tincidunt.</p>
         </div>
         <div class="about-img">
             <img src="/Users/jessemaretz/Desktop/sei/projects/project-1/2 images.png">
@@ -36,7 +40,10 @@
 
 
     <div class="products">
-        <h2>Our Products</h2>
+        <div class='product-bar'>
+            <h2 class='ourproducts'>Our Products</h2>
+            <h3 class='viewmore'>VIEW MORE</h3>
+        </div>
 
         <div class="product-grid">
             <div class="leparcel">
@@ -85,8 +92,10 @@
             <h2>Stay in touch</h2>
             <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. Elementum tempus egestas sed sed.</p>
-            <input type='email' placeholder='Email Address'>
-            <input type='button' value='SENT'>
+            <div class='email-form'>
+                <input id='email-space' type='email' placeholder='Email Address'>
+                <input id='email-button' type='button' value='SENT'>
+            </div>
         </div>
     </div>
 
