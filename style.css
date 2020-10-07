@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 header {
-    background-image: url('/Users/jessemaretz/Desktop/sei/projects/project-1/headerpic.png');
+    background-image: url('images/headerpic.png');
     padding: 30px;
     width: 100%;
 }
@@ -211,8 +211,6 @@ nav a {
     margin-top: 100px;
     margin-bottom: 100px;
 }
-
-
 footer {
     background-color: rgb(29,29,29);
 }
@@ -250,4 +248,24 @@ footer {
 #last-line {
     text-align: center;
     color: rgb(128,128,128);
+}
+@media screen and (max-width: 576px;) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .about-text {
+        width: 100%;
+        padding: 0;
+    }
+    .about-img {
+        width: 100%;
+        padding: 0;
+    }
+    #contact-left {
+        display: none;
+        visibility: hidden;
+    }
 }
