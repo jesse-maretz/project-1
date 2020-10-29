@@ -249,7 +249,7 @@ footer {
     text-align: center;
     color: rgb(128,128,128);
 }
-@media screen and (max-width: 576px;) {
+@media screen and (max-width: 576px) {
     .about {
         display: flex;
         flex-direction: column;
@@ -261,11 +261,24 @@ footer {
         padding: 0;
     }
     .about-img {
-        width: 100%;
+        width: 30%;
         padding: 0;
+    }
+    .product-grid {
+        display: inline;
     }
     #contact-left {
         display: none;
         visibility: hidden;
+    }
+    .contact-right{
+        width: 100vw;
+    }
+    .clients img {
+        max-width: 100%;
+        padding: 0;
+    }
+    .four-blocks {
+        display: inline;
     }
 }
