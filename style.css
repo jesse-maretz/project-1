@@ -266,6 +266,7 @@ footer {
     }
     .product-grid {
         display: inline;
+        padding: 5%;
     }
     #contact-left {
         display: none;
